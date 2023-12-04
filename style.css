@@ -1,0 +1,264 @@
+* {
+  margin: 0; 
+  border: box-border;
+
+  font-family: "Poppins", sans-serif;
+}
+body {
+ /* background-color: rgb(214, 214, 237);*/
+  /* height: auto; */
+  background-color: rgb(249, 247, 246);
+}/*for about us*/
+.main{
+  background-color: #E7E5E4;
+}
+.about-box {
+  
+  margin: 4rem 25% 0 25%;
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+.about-box p{
+  font-size: 1.3rem;
+}
+.Developedby{
+  display: flex;
+  justify-content: center;
+  gap:5rem;
+}
+.anas{
+  background-image: url("anas.jpg");
+  background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+.arshad{
+  background-image: url("arshad.jpg");
+  background-size: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+li{
+  list-style: none;
+}/**/
+nav {
+  background-color: #0F1111;
+  height: 10vh;
+  width: 100vw;
+  color: white;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 75fr 8fr 8fr 8fr;
+  gap: 1vw;
+}
+nav div {
+  padding-top: 1.4vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.nav-name {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: lighters;
+  color: rgb(234, 234, 77);
+}
+
+.main-tittle {
+  color: black;
+  margin-top: 13vh;
+  font-family: "Preahvihear", sans-serif;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.boxes {
+  display: grid;
+
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  gap:0.8rem;
+  margin-bottom: 2rem;
+}
+.box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.sorting {
+  margin-right: 5px;
+}
+.dp {
+  margin-left: 5px;
+}
+.search {
+  margin-left: 5px;
+}
+
+.hov:hover {
+  border: 2px solid white;
+}
+
+/*css for sorting page*/
+.container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.arr {
+  display: flex;
+  /* align-items: flex-end; */
+  justify-content: center;
+  margin-bottom: 10vh;
+  height: 20px;
+}
+.bar {
+  /* margin-right: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 2px solid black;
+}
+.page {
+  
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr;
+  grid-template-rows: auto;
+  height: 100vh;
+}
+
+.left-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6vh;
+  color: black;
+  background-color: rgb(231, 229, 228);
+  border-right: 0.1px solid white;
+  height: 100%;
+}
+.algo-heading {
+  height: 5vh;
+  color: black;
+  background-color: rgb(242, 226, 226);
+  font-size: 1.7rem;
+  
+}
+.left-page div {
+  padding-left: 1.6vw;
+}
+.array-box{
+  color: black;
+  font-size: larger;
+  opacity: 0.9;
+  
+}
+.array-box p {
+  color: black;
+  font-size: larger;
+}
+/* css for search */
+.target {
+  font-size: 1.3rem;
+  color: black;
+  margin-left: 25vw;
+}
+
+/* for psudo code*/
+
+.psudocode {
+  border-left: 1px solid white;
+  color: black;
+  padding-left: 1.5vw;
+  background-color: rgb(231, 229, 228);
+}
+.psudocode pre {
+  font-size: 1rem;
+  color: black;
+}
+/*css for input container*/
+.input-container {
+  margin-top: 10vh;
+  font-size: larger;
+}
+/*for profit array and weighted array 0/1 knapsack*/
+pre {
+  color: white;
+  
+}
+/*for footer/ contact */
+footer{
+  margin-top: auto;
+  background-color: #111;
+  height: 20%;
+  flex: 1;
+}
+#contact-us{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+  gap: 2rem;
+}
+
+#contact-us a{
+  text-decoration: none;
+  padding: 7px;
+  background-color: white;
+  margin: 7px;
+  border-radius: 50%;
+}
+#contact-us a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+#copyright{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #000;
+  height: 3rem;
+  margin-top: 1rem;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+  
+}
+.profit-text,.weight-text{
+  color: black;
+}
+.dp-box{
+  display: flex;
+  gap: 1rem;
+}
+.arr-name{
+  padding-top: 1rem;
+  
+}
+

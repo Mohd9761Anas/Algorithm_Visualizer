@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-name">Algorithm Visualizer</div>
+
+      <div class="home hov" onclick="openIndexPage()" type="button"><a >Home</a></div>
+      <div class="about hov" onclick="openAboutPage()" type="button"><a >About</a></div>
+      <div class="contact hov"><a href="#footer">Contact</a></div>
+    </nav>
+    <div class="page">
+      <div class="left-sort left-page">
+        <div class="algo-heading">Algorithm</div>
+        <div class="bubble-sort hov">Bublle Sort</div>
+        <div class="insertion-sort hov">Insertion Sort</div>
+        <div class="quick-sort hov">Quick Sort</div>
+        <div class="selection-sort hov">Selection Sort</div>
+      </div>
+      <div class="right-sort right-page">
+        <!-- Add this code inside the <body> of your HTML file -->
+        <div class="input-container">
+          <label for="array-element"
+            >Enter Array Elements (comma-separated):</label
+          >
+          <input type="text" id="array-element" />
+          <button id="add-element">Add Element</button>
+          <button id="reset-array">Reset Array</button>
+        </div>
+
+        <div class="container"></div>
+        <div class="array-box">
+          <p>Unsort Array:</p>
+          <div class="arr-unsort arr"></div>
+          <p>Sorted array:</p>
+          <div class="arr-sort arr"></div>
+        </div>
+      </div>
+      <div class="psudocode"></div>
+    </div>
+    <footer id="footer">
+      
+      <div id="contact-us">
+          <a href="https://www.instagram.com/mohdanas9929/"><i class="fa-brands fa-instagram hov"></i></a>
+          <a href="https://www.linkedin.com/in/mohd-anas-7a3649272"><i class="fa-brands fa-linkedin hov"></i></a>
+          <a href="mailto:an12as98@gmail.com" target="_blank"><i class="icon fas fa-envelope hov"></i></a>
+      </div>
+      <p id="copyright">Copyright &copy;2023; Designed by <span class="designer"> Mohd Anas and Arshas Ahmed</span></p>
+  </footer>
+    <!-- <div class="container"></div> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

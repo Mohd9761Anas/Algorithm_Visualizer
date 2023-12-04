@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-name">Algorithm Visualizer</div>
+
+      <div class="home hov" onclick="openIndexPage()" type="button">Home</div>
+      <div class="about hov" onclick="openAboutPage()" type="button">About</div>
+      <div class="contact hov"><a href="#footer">Contact</a></div>
+    </nav>
+    <div class="page">
+      <div class="left-dp left-page">
+        <div class="algo-heading">Algorithm</div>
+        <div class="knapsack hov">0/1 Knapsack</div>
+        <div class="fibonacci hov">Fibonacci Sequence</div>
+        <div class="lcs hov">Longest common sub Sequence</div>
+      </div>
+      <div class="right-dp right-page">
+        <!-- Add this code inside the <body> of your HTML file -->
+
+        <!-- <div class="input-container">
+          <label for="array-element"
+            >Enter Array Elements (comma-separated):</label
+          >
+          <input type="text" id="array-element" />
+          <button id="add-element">Add Element</button>
+          <button id="reset-array">Reset Array</button>
+        </div> -->
+        
+        <div class="container"></div>
+        
+        <div class="array-box">
+          <pre class="profit-text str1-text"></pre>
+          <div class="profit arr str1"></div>
+          <pre class="weight-text str2-text"></pre>
+          <div class="weight arr str2"></div>
+          <div class="capacity"></div>
+        </div>
+      </div>
+      <div class="psudocode"></div>
+    </div>
+    <footer id="footer">
+      
+      <div id="contact-us">
+          <a href="https://www.instagram.com/mohdanas9929/"><i class="fa-brands fa-instagram hov"></i></a>
+          <a href="https://www.linkedin.com/in/mohd-anas-7a3649272"><i class="fa-brands fa-linkedin hov"></i></a>
+          <a href="mailto:an12as98@gmail.com" target="_blank"><i class="icon fas fa-envelope hov"></i></a>
+      </div>
+      <p id="copyright">Copyright &copy;2023; Designed by <span class="designer"> Mohd Anas and Arshas Ahmed</span></p>
+  </footer>
+    <!-- <div class="container"></div> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="dp.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
