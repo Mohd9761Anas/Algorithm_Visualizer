@@ -400,7 +400,7 @@ $(".psudocode").html(pseudocode);
   });
   $(".dfs").click(async function () {
     const pseudocode =
-    "<h3>BFS Algorithm</h3><br>" +
+    "<h3>DFS Algorithm</h3><br>" +
     "<h3>Psudocode :</h3><br>"+
     "<h4>DFS(G,v)   ( v is the vertex where the search starts )</h4>"+    
       "<pre>1  Stack S := {};   ( start with an empty stack )</pre>"+    
