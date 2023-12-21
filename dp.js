@@ -30,7 +30,7 @@ async function visual2dDp(dp,i1,i2,j1,j2,row,col) {
 
     
   }
-  await delay(100);
+  await delay(300);
 }
  
 // 1d dp visual function
@@ -67,7 +67,7 @@ async function visual1dDp(dp, index) {
     $(".container").append(container);
     $(bar).css("border", "0.1px solid white");
   }
-  await delay(100);
+  await delay(400);
 }
 
 // array visual function
@@ -116,7 +116,7 @@ async function visualArray(array,check){
         $(bar).css("background-color", "black");
         // $(bar).css("border", "1px solid white");
       }
-      await delay(100);
+      await delay(300);
       
 }
 //visual function for string
@@ -167,7 +167,7 @@ async function visualString(str,check,index){
   
       // $(bar).css("border", "1px solid white");
     }
-    await delay(200);
+    await delay(300);
     
 }
 //0/1 knapsack function
