@@ -188,17 +188,10 @@ function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// A Javascript program for Dijkstra's single
-// source shortest path algorithm.
-// The program is for adjacency matrix
-// representation of the graph
+
 let V = 9;
 
-// A utility function to find the
-// vertex with minimum distance
-// value, from the set of vertices
-// not yet included in shortest
-// path tree
+
 function minDistance(dist, sptSet) {
   // Initialize min value
   let min = Number.MAX_VALUE;
@@ -231,10 +224,7 @@ async function dijkstra(graph, src) {
 
   // Find shortest path for all vertices
   for (let count = 0; count < V - 1; count++) {
-    // Pick the minimum distance vertex
-    // from the set of vertices not yet
-    // processed. u is always equal to
-    // src in first iteration.
+    
     let u = minDistance(dist, sptSet);
 
     // Mark the picked vertex as processed
@@ -243,11 +233,7 @@ async function dijkstra(graph, src) {
     // Update dist value of the adjacent
     // vertices of the picked vertex.
     for (let v = 0; v < 9; v++) {
-      // Update dist[v] only if is not in
-      // sptSet, there is an edge from u
-      // to v, and total weight of path
-      // from src to v through u is smaller
-      // than current value of dist[v]
+      
       if (
         !sptSet[v] &&
         graph[u][v] != 0 &&
@@ -261,16 +247,12 @@ async function dijkstra(graph, src) {
     }
   }
 
-  // Print the constructed distance arprintSolution(dist);
+  
 }
 
 
 	
-// Driver program to test methods of graph class
-	
-	
-	
-// This code is contributed by Aman Kumar.
+
 
 
 
